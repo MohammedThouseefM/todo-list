@@ -214,5 +214,12 @@ body {
     max-height: 40%;
     overflow: hidden;
     width: 100%;
+    list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  
+  overflow-y: auto;
+  border: 1px solid rgb(187, 185, 185);
+  padding: 0 10px;
   }
 }
