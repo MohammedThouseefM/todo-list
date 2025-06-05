@@ -197,3 +197,22 @@ body {
   padding: 20px;
   text-align: center;
 }
+
+@media screen and (max-width : 425px) {
+  #root{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+  }
+  .app-container{
+    margin: auto;
+    width: 90%;
+    height: 95%;
+    align-content: center;
+  }
+  .todo-list{
+    max-height: 40%;
+    overflow: hidden;
+    width: 100%;
+  }
+}
